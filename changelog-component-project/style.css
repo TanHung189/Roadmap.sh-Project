@@ -1,0 +1,41 @@
+/* Thêm đường line timeline */
+article {
+  position: relative;
+  padding-left: 30px;
+}
+
+article::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: #007bff;
+}
+
+article:first-child::before {
+  top: 30px; /* Bắt đầu từ dưới version */
+}
+
+article:last-child::before {
+  bottom: auto;
+  height: 30px; /* Kết thúc trước entry cuối */
+}
+
+/* Hover effect */
+article:hover {
+  background-color: #f8f9fa;
+  transition: background-color 0.3s;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 576px) {
+  article {
+    padding-left: 20px;
+  }
+  .d-flex {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
