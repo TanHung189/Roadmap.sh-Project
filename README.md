@@ -29,5 +29,5 @@ _(Sẽ cập nhật thêm khi hoàn thành các project khác)_
 ## ▶️ Cách sử dụng
 Clone repo về máy và mở project bạn muốn:
 ```bash
-git clone https://github.com/TanHung189/Roadmap.sh-Project.git
-cd Roadmap.sh-Project
+git clone https://github.com/TanHung189/mini-frontend-project.git
+cd mini-frontend-project
