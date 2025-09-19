@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tab</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./myStyle.css" />
+  </head>
+  <body>
+    <div class="container py-4">
+      <h2 class="mb-4 text-center">Tabs component demo</h2>
+      <ul class="nav nav-tabs" id="tabs">
+        <li class="nav-item">
+          <button class="nav-link active link-danger" data-tab="tab1">
+            My Skills
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link link-warning" data-tab="tab2">
+            Education
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link link-success" data-tab="tab3">
+            About me
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link link-info" data-tab="tab4">Contact me</button>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div
+          class="tab-pane active align-items-center text-content-center"
+          id="tab1"
+        >
+          <section>
+            <h2 class="text-primary text-center">Skills</h2>
+            <hr />
+            <h6>Frontend</h6>
+            <ul>
+              <li>HTML5, CSS3, JavaScript (ES6+), TypeScript</li>
+              <li>React.js (Hooks, Router), Bootstrap / Tailwind CSS</li>
+            </ul>
+            <h6>Backend</h6>
+            <ul>
+              <li>Node.js, NestJS</li>
+              <li>RESTful API, Authentication (JWT)</li>
+              <li>ASP.NET Core 8 (C#), Entity Framework Core</li>
+            </ul>
+            <h6>Database</h6>
+            <ul>
+              <li>SQL Server, MongoDB</li>
+              <li>Database design & normalization</li>
+            </ul>
+            <h6>Tools & Others</h6>
+            <ul>
+              <li>Git/GitHub, Docker (cơ bản)</li>
+              <li>System Analysis & Design, UML</li>
+              <li>Photoshop</li>
+              <li>Figma</li>
+            </ul>
+          </section>
+        </div>
+        <div class="tab-pane" id="tab2">
+          <!-- Education -->
+          <section>
+            <article>
+              <h2 class="text-primary text-center">Education</h2>
+              <hr />
+              <h6>An Giang University</h6>
+              <p>8/2022 - 10/2026</p>
+              <p>Information Technology</p>
+            </article>
+          </section>
+        </div>
+        <div class="tab-pane" id="tab3">
+          <section>
+            <article>
+              <h2 class="text-primary text-center">About me</h2>
+              <hr />
+              <p>
+                Applying the experience of learning and researching skills,
+                absorbing new technologies to become a professional Firm
+                Developer...
+              </p>
+            </article>
+          </section>
+        </div>
+        <div class="tab-pane" id="tab4">
+          <div
+            class="bg-dark text-white d-flex flex-wrap gap-3 align-items-center mt-3 p-3 rounded-pill"
+          >
+            <div>📞 +84399308546</div>
+            <div>✉️ hung189204@gmail.com</div>
+            <div>🏠 230, Long Hoa, Nhon My, An Giang Province</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
