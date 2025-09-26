@@ -13,7 +13,29 @@ Mục tiêu chính:
 - [changelog component](https://github.com/TanHung189/Roadmap.sh-Project/tree/main/changelog-component-project) -> [link roadmap](https://roadmap.sh/projects/changelog-component)
 - [datepicker ui](https://github.com/TanHung189/Roadmap.sh-Project/tree/main/datepicker-ui) -> [link roadmap](https://roadmap.sh/projects/datepicker-ui)
 - [tabs](https://github.com/TanHung189/mini-frontend-project/tree/main/tabs-project) -> [link roadmap](https://roadmap.sh/projects/simple-tabs)
-  
+- [StopWatch](https://github.com/TanHung189/mini-frontend-project/tree/main/Stopwatch)
+
+
+<p align="left">
+  <a href='https://github.com/TanHung189/mini-frontend-project/tree/main/Stopwatch'>
+    <img width="48%" src="img/pic_StopWatch.jpg" />
+  </a>
+  <a href='https://github.com/TanHung189/mini-frontend-project/tree/main/changelog-component-project'>
+    <img width="48%" src="img/pic_ChangeLog_Component.jpg" alt="changelog-component-project" />
+  </a>
+</p>
+
+<p align="left">
+  <a href='https://github.com/TanHung189/mini-frontend-project/tree/main/datepicker-ui'>
+    <img width="48%" src="img/pic_datepicker_ui.jpg" />
+  </a>
+  <a href='https://github.com/TanHung189/mini-frontend-project/tree/main/tabs-project'>
+    <img width="48%" src="img/pic_tabs.jpg" alt="tabs-project" />
+  </a>
+</p>
+
+
+
 _(Sẽ cập nhật thêm khi hoàn thành các project khác)_
 
 ---
