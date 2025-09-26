@@ -1,4 +1,4 @@
-# Roadmap.sh Projects 🚀
+# Mini Frontend Projects 🚀
 Mini projects from roadmap.sh frontend roadmap for learning and portfolio(Các dự án nhỏ từ roadmap.sh frontend roadmap để học tập và xây dựng portfolio)
 
 Repository này tập hợp các dự án nhỏ mà mình thực hiện theo lộ trình [frontend roadmap](https://roadmap.sh/frontend/projects).  
