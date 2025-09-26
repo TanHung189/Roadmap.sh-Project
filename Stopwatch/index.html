@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="website đồng hồ bấm giờ" />
+    <title>Đồng hồ bấm giờ</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="container">
+    <header>
+      <div class="row">
+        <div class="col-4">
+          <button
+            class="btn btn-success"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#sidebar"
+          >
+            Menu
+          </button>
+
+          <!-- Sidebar -->
+          <div
+            class="offcanvas offcanvas-start bg-dark text-white"
+            id="sidebar"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title">Đồng Hồ Online</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link text-white">
+                    <i class="fa-solid fa-bell me-2"></i> Đồng hồ báo thức
+                    online
+                  </a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link text-white">
+                    <i class="fa-solid fa-hourglass-half me-2"></i> Đồng hồ đếm
+                    ngược
+                  </a>
+                </li>
+                <li class="nav-item mb-2">
+                  <a href="#" class="nav-link text-white">
+                    <i class="fa-regular fa-calendar-days me-2"></i> Đếm ngược
+                    ngày
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h1 class="text-center">Đồng Hồ Bấm Giờ Online</h1>
+      </div>
+    </header>
+
+    <main>
+      <div class="row justify-content-center align-items-center">
+        <div
+          class="d-flex justify-content-center align-items-center"
+          id="clock"
+        >
+          00:00:00
+        </div>
+
+        <button class="btn btn-primary col-3 m-1 py-3" id="start">
+          Bắt đầu
+        </button>
+        <button class="btn btn-danger col-3 m-1 py-3" id="stop">Dừng</button>
+        <button class="btn btn-success col-3 m-1 py-3" id="reset">
+          làm lại
+        </button>
+      </div>
+    </main>
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
